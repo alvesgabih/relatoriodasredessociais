@@ -1,0 +1,46 @@
+:root{
+    --verde-agua: rgb(44, 216, 164);
+    --roxo-escuro: rgb(148, 0, 161);
+    --preto: rgba(0, 0, 0, 0.986);
+    --branco: rgb(255, 255, 255);
+    --font: 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: var(--verde-agua);
+    color: var(--preto);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: var(--roxo-escuro);
+    text-align: center;
+    padding: 1px;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--preto);
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--roxo-escuro);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration:underline;
+    transform: scale(0,90);
+    transition: transform(0.1s);
+}
+
